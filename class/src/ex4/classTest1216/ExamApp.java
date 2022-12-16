@@ -24,7 +24,7 @@ public class ExamApp {
 		exams[0] = new Exam(); // 이제 exams[0] 참조변수에 인스턴스를 참조
 		exams[0].kor = 10; // 이제 인스턴스가 있으니 ㅇㅋㅇㅋ
 		exams[0].eng = 10;
-		exams[0].math = 10;
+		exams[0].math = 10;/
 
 		exams[1] = new Exam();
 		exams[1].kor = 20;

@@ -13,7 +13,9 @@ public class BasicFunction {
 	}
 	
 	
-	
+	static void PrintSum(int sum) {
+		System.out.println(sum);
+	}
 
 	public static void main(String[] args) {
 
@@ -26,6 +28,11 @@ public class BasicFunction {
 		
 		System.out.printf("result is %d\n", result);
 		
+		PrintSum(add(16,7)); //
+		
 	}
+
+
+
 
 }
