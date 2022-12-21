@@ -7,3 +7,4 @@ public class Exam { // 데이터를 구조화 위한 용도
 	int math;
 
 }
+

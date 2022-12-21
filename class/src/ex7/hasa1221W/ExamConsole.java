@@ -1,4 +1,4 @@
-package ex6.hasa1220T;
+package ex7.hasa1221W;
 
 import java.util.Scanner;
 

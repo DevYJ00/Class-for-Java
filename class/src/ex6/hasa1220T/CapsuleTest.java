@@ -7,20 +7,17 @@ public class CapsuleTest {
 	
 	public static void main(String[] args) {
 		
-//		Exam  newlec = new Exam(30,30,50); //이건 데이터일 뿐이고
-		//입출력을 ExamConsole 클래스!
+		//1. composition 방법 - 셋트로 한큐에!(일체형)
+//		ExamConsole console = new ExamConsole();
+//		console.print();
 		
-		//composition 방법
-		ExamConsole console  = new ExamConsole(); // 이제 우린 데이터가 필요한데 this에 없음
-		console.print();
-		
-	//	association 방법
-		ExamConsole console2  = new ExamConsole();
-		Exam exam = new Exam(10,10,10);
-		console2.setExam(exam);
+		//2. Aggregation 방법 - DIY Exam 객체, ExamConsole 객체 각각 만들어서 조립
+		ExamConsole console2 = new ExamConsole(); 
+		Exam exam = new Exam(20, 10, 6);
+//		console2.print(); //조립 전 - 아직 객체 안넣었으니까 오류나야하는거 아닌가? - 맞음 위에 1번케이스랑 혼용되서 그랫음
+		System.out.println("조립 후");
+		console2.setExam(exam); //조립
 		console2.print();
-		
-
 		
 	}
 

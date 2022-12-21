@@ -1,4 +1,4 @@
-package ex6.hasa1220T;
+package ex7.hasa1221W;
 
 
 public class Exam {
@@ -17,10 +17,10 @@ public class Exam {
 		this.math = math;
 	}
 
-	int total() {
-		
-		return kor + eng + math; // lv없으니까 iv
-	}
+//	int total() {
+//		
+//		return kor + eng + math; // lv없으니까 iv
+//	}
 
 	double avg() {
 		
